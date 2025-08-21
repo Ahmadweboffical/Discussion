@@ -10,7 +10,7 @@
        if (isset($_GET['signup']))
          {
        include 'client/signup.php';
-       }else if (isset($_GET['login.php']))
+       }else if (isset($_GET['login']))
        {
        include 'client/login.php';
        }else{
